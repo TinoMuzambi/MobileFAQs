@@ -9,7 +9,14 @@
 			margin-bottom: 3rem;
 
 			&::after {
-				@include color-underline(10rem);
+				position: absolute;
+				content: "";
+				height: 5px;
+				width: 8rem;
+				background: linear-gradient(to right, purple, hotpink);
+				bottom: -0.2rem;
+				left: 50%;
+				transform: translateX(-50%);
 			}
 		}
 	}

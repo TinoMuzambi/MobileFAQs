@@ -23,7 +23,7 @@ body {
   position: absolute;
   content: "";
   height: 5px;
-  width: 10rem;
+  width: 8rem;
   background: -webkit-gradient(linear, left top, right top, from(purple), to(hotpink));
   background: linear-gradient(to right, purple, hotpink);
   bottom: -0.2rem;
@@ -52,9 +52,9 @@ body {
 
 .card {
   border-radius: 0.5rem;
-  -webkit-box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
-  margin: 1rem 0;
+  -webkit-box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+  margin: 2rem 0;
   padding: 1rem;
 }
 
@@ -63,18 +63,31 @@ body {
   color: grey;
   font-weight: 300;
   position: relative;
+  margin-bottom: 2rem;
 }
 
 .card .card-title::after {
   position: absolute;
   content: "";
   height: 5px;
-  width: 7rem;
-  background: -webkit-gradient(linear, left top, right top, from(purple), to(hotpink));
-  background: linear-gradient(to right, purple, hotpink);
+  width: 8rem;
+  background: purple;
   bottom: -0.2rem;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
+}
+
+.card ul {
+  list-style: none;
+}
+
+.card ul .question-item {
+  margin: 1rem 0;
+  color: grey;
+}
+
+.card ul .question-item .question {
+  width: 80%;
 }
 /*# sourceMappingURL=App.css.map */
