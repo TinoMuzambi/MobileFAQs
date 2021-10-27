@@ -6,6 +6,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+body {
+  padding: 0 5%;
+}
+
 .nav .links .item {
   display: block;
   text-align: center;
@@ -26,5 +30,13 @@
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
+}
+
+.search .input-group {
+  width: 100%;
+}
+
+.search .input-group .search {
+  width: 100%;
 }
 /*# sourceMappingURL=App.css.map */
