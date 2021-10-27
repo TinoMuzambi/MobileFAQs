@@ -1,8 +1,21 @@
 .search {
 	.input-group {
-		width: 100%;
 		.search {
 			width: 100%;
+			border: none;
+			outline: none;
+			border-radius: 0.5rem;
+			background: rgb(252, 252, 252);
+			padding: 0.5rem 1rem;
+			border-bottom: 2px solid purple;
 		}
+	}
+
+	.info {
+		color: grey;
+		text-align: center;
+		font-size: 0.7rem;
+		margin: 2rem auto;
+		width: 90%;
 	}
 }

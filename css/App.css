@@ -32,11 +32,21 @@ body {
           transform: translateX(-50%);
 }
 
-.search .input-group {
-  width: 100%;
-}
-
 .search .input-group .search {
   width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  background: #fcfcfc;
+  padding: 0.5rem 1rem;
+  border-bottom: 2px solid purple;
+}
+
+.search .info {
+  color: grey;
+  text-align: center;
+  font-size: 0.7rem;
+  margin: 2rem auto;
+  width: 90%;
 }
 /*# sourceMappingURL=App.css.map */
