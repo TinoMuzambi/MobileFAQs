@@ -5,7 +5,8 @@
         "../sass/App.scss",
         "../sass/components/_base.scss",
         "../sass/components/_nav.scss",
-        "../sass/components/_search.scss"
+        "../sass/components/_search.scss",
+        "../sass/components/_card.scss"
     ],
     "names": [],
     "file": "App.css"
