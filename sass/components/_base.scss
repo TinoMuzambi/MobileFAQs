@@ -4,3 +4,27 @@
 	box-sizing: border-box;
 	font-family: "Poppins", sans-serif;
 }
+
+.nav {
+	.links {
+		.item {
+			display: block;
+			text-align: center;
+			font-size: 2rem;
+			font-weight: 500;
+			position: relative;
+			margin-bottom: 3rem;
+
+			&::after {
+				position: absolute;
+				content: "";
+				height: 5px;
+				width: 8rem;
+				background: linear-gradient(to right, purple, hotpink);
+				bottom: -0.2rem;
+				left: 50%;
+				transform: translateX(-50%);
+			}
+		}
+	}
+}
