@@ -24,8 +24,8 @@ body {
   content: "";
   height: 5px;
   width: 8rem;
-  background: -webkit-gradient(linear, left top, right top, from(purple), to(hotpink));
-  background: linear-gradient(to right, purple, hotpink);
+  background: -webkit-gradient(linear, left top, right top, from(orange), to(#ffcc00));
+  background: linear-gradient(to right, orange, #ffcc00);
   bottom: -0.2rem;
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -71,7 +71,7 @@ body {
   content: "";
   height: 5px;
   width: 8rem;
-  background: purple;
+  background: orange;
   bottom: -0.2rem;
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -85,6 +85,12 @@ body {
 .card ul .question-item {
   margin: 1rem 0;
   color: grey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .card ul .question-item .question {

@@ -16,7 +16,7 @@
 			content: "";
 			height: 5px;
 			width: 8rem;
-			background: purple;
+			background: orange;
 			bottom: -0.2rem;
 			left: 50%;
 			transform: translateX(-50%);
@@ -29,6 +29,8 @@
 		.question-item {
 			margin: 1rem 0;
 			color: grey;
+			display: flex;
+			justify-content: space-between;
 
 			.question {
 				width: 80%;
