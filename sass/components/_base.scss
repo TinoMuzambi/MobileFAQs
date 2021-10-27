@@ -8,3 +8,14 @@
 body {
 	padding: 0 5%;
 }
+
+@mixin color-underline($length) {
+	position: absolute;
+	content: "";
+	height: 5px;
+	width: $length;
+	background: linear-gradient(to right, purple, hotpink);
+	bottom: -0.2rem;
+	left: 50%;
+	transform: translateX(-50%);
+}

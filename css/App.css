@@ -23,7 +23,7 @@ body {
   position: absolute;
   content: "";
   height: 5px;
-  width: 8rem;
+  width: 10rem;
   background: -webkit-gradient(linear, left top, right top, from(purple), to(hotpink));
   background: linear-gradient(to right, purple, hotpink);
   bottom: -0.2rem;
@@ -48,5 +48,33 @@ body {
   font-size: 0.7rem;
   margin: 2rem auto;
   width: 90%;
+}
+
+.card {
+  border-radius: 0.5rem;
+  -webkit-box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+  margin: 1rem 0;
+  padding: 1rem;
+}
+
+.card .card-title {
+  text-align: center;
+  color: grey;
+  font-weight: 300;
+  position: relative;
+}
+
+.card .card-title::after {
+  position: absolute;
+  content: "";
+  height: 5px;
+  width: 7rem;
+  background: -webkit-gradient(linear, left top, right top, from(purple), to(hotpink));
+  background: linear-gradient(to right, purple, hotpink);
+  bottom: -0.2rem;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 /*# sourceMappingURL=App.css.map */
