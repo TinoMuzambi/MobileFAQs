@@ -85,6 +85,9 @@ body {
 .card ul .question-item {
   margin: 1rem 0;
   color: grey;
+}
+
+.card ul .question-item .row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

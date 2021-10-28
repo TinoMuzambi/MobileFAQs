@@ -29,8 +29,11 @@
 		.question-item {
 			margin: 1rem 0;
 			color: grey;
-			display: flex;
-			justify-content: space-between;
+
+			.row {
+				display: flex;
+				justify-content: space-between;
+			}
 
 			.question {
 				width: 80%;
