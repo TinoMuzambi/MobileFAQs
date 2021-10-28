@@ -96,7 +96,17 @@ body {
           justify-content: space-between;
 }
 
-.card ul .question-item .question {
+.card ul .question-item .row .question {
   width: 80%;
+}
+
+.card ul .question-item .row.answer {
+  height: 0;
+  overflow: hidden;
+}
+
+.card ul .question-item .row.answer.open {
+  height: auto;
+  overflow: visible;
 }
 /*# sourceMappingURL=App.css.map */

@@ -33,10 +33,20 @@
 			.row {
 				display: flex;
 				justify-content: space-between;
-			}
 
-			.question {
-				width: 80%;
+				.question {
+					width: 80%;
+				}
+
+				&.answer {
+					height: 0;
+					overflow: hidden;
+
+					&.open {
+						height: auto;
+						overflow: visible;
+					}
+				}
 			}
 		}
 	}
