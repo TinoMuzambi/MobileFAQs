@@ -37,15 +37,15 @@
 				.question {
 					width: 80%;
 				}
+			}
 
-				&.answer {
-					height: 0;
-					overflow: hidden;
+			.answer {
+				height: 0;
+				overflow: hidden;
 
-					&.open {
-						height: auto;
-						overflow: visible;
-					}
+				&.open {
+					height: auto;
+					overflow: visible;
 				}
 			}
 		}
