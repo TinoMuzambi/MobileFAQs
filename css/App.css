@@ -100,12 +100,12 @@ body {
   width: 80%;
 }
 
-.card ul .question-item .answer {
+.card ul .question-item div.answer {
   height: 0;
   overflow: hidden;
 }
 
-.card ul .question-item .answer.open {
+.card ul .question-item div.answer.open {
   height: auto;
   overflow: visible;
 }
